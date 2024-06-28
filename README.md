@@ -15,12 +15,13 @@ When using jinja2 templates, it is recommended to use a virtual environment of t
 3] Type in the following commands : 
 
 ```bash
-python3 -m venv .random-env
+python3 -m venv .folder_name-env
 ```
 followed by
  ```bash
-source .random-env/bin/activate
+source .folder_name-env/bin/activate
  ```
+Replace folder_name with name of your local directory. 
 
 
 4] Use pip freeze to make sure that the required frameworks are present, if not, use
